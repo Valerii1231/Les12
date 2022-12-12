@@ -6,7 +6,7 @@
 @font-face {
     font-family: 'Sofia Sans';
     font-display: swap;
-    src: url(../CSS/SofiaSans.ttf);
+    src: url(./SofiaSans.ttf);
 
     font-weight: bold;
     font-style: normal;
@@ -25,7 +25,7 @@ body {
     }
 
     .main {
-        background-image: url(../Img/background.jpg);
+        background-image: url(./background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -460,7 +460,7 @@ body {
         width: auto;
         height: 450px;
         background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
-        display: flex;      
+        display: flex;          
         column-gap: 34%;
         padding: 55px 174px 0 112px;
         box-sizing: border-box;
@@ -493,8 +493,14 @@ body {
         color: #0F2D4A;
     }
 
+    .home-work {
+        display: flex;
+    }
+
     .home {
         display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         font-weight: 400;
         font-size: 20px;
         color: #0F2D4A;
@@ -609,7 +615,7 @@ body {
     }
 
     .main {
-        background-image: url(../Img/background.jpg);
+        background-image: url(./background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -954,7 +960,7 @@ body {
     }
 
     .main {
-        background-image: url(../Img/background.jpg);
+        background-image: url(./background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
